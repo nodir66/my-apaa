@@ -1,0 +1,36 @@
+div.delivery{
+    background: #FFFFFF;
+    box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 20px;
+    width: 350px;
+    padding: 16px 20px;
+
+
+    div.text{
+        margin-bottom: 33px;
+        text-align: start;
+        h1{
+            font-weight: 400;
+            font-size: 22px;
+            line-height: 24px;         
+            color: #42445A;
+
+        }
+    }
+
+    div.delivery_block{
+        
+        div.item{
+            display: flex;
+            // align-items: center;
+            p{
+                font-weight: 300;
+                font-size: 18px;
+                line-height: 19px;             
+                color: #42445A;
+                margin-left: 13px;
+                margin-bottom: 22px;
+            }
+        }
+    }
+}

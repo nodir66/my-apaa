@@ -1,0 +1,78 @@
+div.container{
+    width: 1200px;
+    margin: 0 auto;
+}
+div.fruit{
+    div.fruit_block{
+        display: flex;
+        flex-wrap: wrap;
+        div.fruit_item{
+            width: 180px;
+            margin-left: 16px;
+            margin-bottom: 32px;
+            background: #FFFFFF;
+            box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.08);
+            border-radius: 15px;
+            div.item_top{
+                padding: 15px 11px;
+                div.icon{
+                    display: flex;
+                    justify-content: flex-end;
+                    margin-bottom: 16px;
+
+                    img{
+                        margin-bottom: 9px;
+                        
+
+                    }
+                }
+
+                div.img{
+                    img{
+
+                    }
+                }
+            }
+
+            div.item_center{
+                margin-bottom: 17px;
+
+                h1{
+                    font-weight: 300;
+                    font-size: 18px;
+                    color: #42445A;
+                    margin-bottom: 5px;
+
+
+                }
+
+                p{
+                    font-weight: 300;
+                    font-size: 13px;
+                    color: #42445A;
+
+                }
+
+            }
+
+            div.item_bottom{
+                background: #5FE074;
+                box-shadow: -3px 4px 10px -3px rgba(151, 151, 151, 0.25);
+                border-radius: 0px 0px 15px 15px;
+                display: flex;
+                justify-content: space-around;
+                padding: 10px 14px;
+                p{
+                    font-weight: 400;
+                    font-size: 18px;
+                    color: #fff;
+                }
+
+                img{
+
+
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,44 @@
+div.adreas{
+    padding: 16px 20px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 20px;
+    text-align: left;
+    width: 350px;
+    div.text{
+        margin-bottom: 22px;
+
+        h1{
+            font-weight: 400;
+            font-size: 22px;
+            color: #42445A;
+
+        }
+    }
+
+    div.adreas_block{
+        div.item{
+            display: flex;
+            
+            
+            p{
+                font-weight: 300;
+                font-size: 18px;
+                color: #42445A;
+                margin-bottom: 65px;
+                margin-left: 13px;
+            }
+
+            
+        }
+
+        b{
+            font-weight: 300;
+            font-size: 20px;
+            text-decoration-line: underline;
+            color: #0069B0;
+            cursor: pointer;
+
+        }
+    }
+}

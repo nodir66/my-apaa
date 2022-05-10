@@ -1,37 +1,31 @@
-import React from "react";
-import styles from "./Index.module.scss";
+import React, { useState } from 'react';
+import ReactDOM from "react-dom";
+import styles from "./Indexx.module.scss";
 import img from '../img/vvv.png';
+import { Icon } from "../Icon/icon";
+// import Icon from "../Icon/icon.jsx"
+import {TestUseState} from '../button/button.jsx'
+
 
 export const Product = () => {
+    const [count, setCount] = useState(1);
+    const gram = (count * 100)
+    
+    
+
+
+      
+        
+    
+    
+
+
     return (
         <div>
             
             <div className={styles.content}>
                 <div className={styles.left_content}>
-                    <i>
-                        <svg
-                            width="28"
-                            height="29"
-                            viewBox="0 0 28 29"
-                            fill="none"
-                            xmlns="http://www.w3.org/2000/svg"
-                        >
-                            <rect
-                                x="0.5"
-                                y="0.5"
-                                width="27"
-                                height="28"
-                                rx="4.5"
-                                stroke="#BDBDBD"
-                            />
-                            <path
-                                fill-rule="evenodd"
-                                clip-rule="evenodd"
-                                d="M6.50108 12.73L6 13.4056L12.3749 22.0003L23 7.67533L22.4987 7L12.3749 20.6492L6.50108 12.73Z"
-                                fill="#BDBDBD"
-                            />
-                        </svg>
-                    </i>
+                    <Icon/>
 
                     <div className={styles.img}>
                         <img src={img} />
@@ -41,16 +35,16 @@ export const Product = () => {
                     <div className={styles.text}>
                         <h1>
                             <span className={styles.text1}>Клубника </span>
-                            <span className={styles.text2}>100гр</span>
+                            <span className={styles.text2}>{gram}гр</span>
                         </h1>
 
                         <p className={styles.text_center}>Королевская-высшая</p>
+                        <TestUseState 
+                            setCount = {setCount} 
+                            test = {count}
+                        />
 
-                        <div className={styles.button}>
-                            <p id="btn1">-</p>
-                            <p id="inhtml">1</p>
-                            <p id="btn2">+</p>
-                        </div>
+                        
                     </div>
                 </div>
 
@@ -71,12 +65,15 @@ export const Product = () => {
                         </svg>
                     </i>
 
-                    <h2>18.800 сум</h2>
+                    <h2> {count * 18000} сум</h2>
                 </div>
             </div>
         </div>
     );
 };
+
+
+
 
 // let btn1 = document.getElementById("btn1")
 // let i = document.getElementById("inhtml")

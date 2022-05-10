@@ -5,6 +5,7 @@ div.content{
     box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.473);
     border-radius: 10px;
     width: 767px;
+    margin-right: 29px;
     div.left_content{
         display: flex;
         align-items: center;
@@ -37,8 +38,9 @@ div.content{
     }
 
     div.center_content{
-        margin-right: 46px;
+        margin-right: 40px;
         div.text{
+            width: 250px;
             h1{
                 margin-bottom: 6px;
                 span.text1{
@@ -93,7 +95,7 @@ div.content{
         i{
             display: flex;
             justify-content: flex-end;
-            margin-bottom: 57px;
+            margin-bottom: 47px;
             svg{
 
             }
@@ -101,7 +103,7 @@ div.content{
 
         h2{
             font-weight: 400;
-            font-size: 50px;
+            font-size: 40px;
             line-height: 48px;        
             color: #5FE074;
             
